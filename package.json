@@ -1,0 +1,22 @@
+{
+  "name": "gab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cron": "^1.7.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}

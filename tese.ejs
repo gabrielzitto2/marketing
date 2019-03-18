@@ -1,0 +1,66 @@
+<html>
+    <body>
+        sdfasfd
+        <div class="bg-modal">
+			<div class="modal-contents">
+	
+					<div class="close">+</div>
+					<img src="https://richardmiddleton.me/comic-100.png" alt="">
+	
+					<form action="/salvar" method="POST">
+							<input name="name" class="inputter" type="text" placeholder="Name">
+							<input name="email" class="inputter" type="email" placeholder="E-Mail">
+							<input type="submit" value="enviar">
+					</form>
+	
+			</div>
+    </div>
+    <style>
+        
+.bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+
+    </style>
+	<script src="modalEmail.js"></script>
+    
+    </body>
+</html>
